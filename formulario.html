@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Condiment&family=Imperial+Script&family=Meow+Script&family=Ms+Madi&family=Petit+Formal+Script&family=Ranga:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main class="contenedor">
+
+        <div class="header">
+            <div class="foto-header">
+                <img src="img /logo.png" alt="Logo" class="fotito-header">
+            </div>
+
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li class="boton-texto width-ajustable"><a href="index.html" class="texto-link">Inicio</a></li>
+                    <li class="boton-texto width-ajustable"><a href="nosotros.html" class="texto-link">Nosotros</a></li>
+                    <li class="boton-texto width-ajustable"><a href="contacto.html" class="texto-link">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <div class="botones-inicio-registro">
+                <h3>BOTONES DE INICIO</h3>
+            </div>
+        </div>
+       
+        <div class="texto texto-forms">
+
+            <div class="contenedor-texto">
+                <p class="texto-fuerte">¿Queres <strong>SER</strong> parte de esta gran <strong>COMUNIDAD</strong>?</p>
+                <p class="texto-suave">Déjanos tus datos y prendamos el horno.</p>
+            </div>
+
+           <form class="formulario-contacto" action="https://formspree.io/f/xzzbdveq" method="POST">
+                <div class="campo">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="campo">
+                    <label for="nombre">Apellido:</label>
+                    <input type="text" id="apellido" name="nombre" required>
+                </div>
+                <div class="campo">
+                    <label for="nombre">Nombre de Usuario:</label>
+                    <input type="text" id="UserName" name="nombre" required>
+                </div>
+                <div class="campo">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="campo">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+
+                <p class="texto-suave">Se te enviara un mail con link de confirmacion, clikealo para validar tu cuenta</p>
+                <div class="checkbox" >
+                    <label for="promociones" class="texto-suave">Deseo recibir promociones de esta bella pagina</label>
+                    <input type="checkbox">
+                </div>
+                <div class="boton-texto">
+                    <button type="submit" class="texto-link">Registrarse</button>
+                </div> 
+                
+                
+                
+               
+            </form>
+            
+        </div>
+       
+        <footer class="footer">
+            <!-- Puedes agregar contenido adicional para el pie de página aquí -->
+        </footer>
+    </main>
+
+</body>
+</html>
