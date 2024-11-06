@@ -135,12 +135,12 @@ strong{
 .slide-item:hover{
     max-width: 250px;
     max-height: 250px;
-    border-radius: 75px;
-}
+    border-radius: 75px;}
 .slogan{
     background-color: chocolate;
     min-height: 300px;
     margin-top: 100px;
+    margin-bottom: 100px;
     grid-column: 1/-1;
 
     display: flex;
@@ -184,7 +184,84 @@ strong{
             outline: none;
             border-color: #558ABB;
             box-shadow: 0 0 5px rgba(85, 138, 187, 0.5);}
- 
+.slogan{
+    background-color: #FFF8EC;
+    border-radius: 75px;
+    padding: 75px;}
+.color{
+    color: #dedede;
+    background-color: #404040;}
+.nosotros-body{
+    background-color: #dedede;}
+
+
+
+.footer{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    min-height: 300px;
+    /* background-color:#616161; */
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(12,1fr); 
+    box-shadow: 0 13px 35px -12px rgba(35,35,35,.30);
+    border-radius: 75px;
+}
+    
+
+
+.mapa{
+    
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    grid-column: 7/-1;
+    /* background-color: #FFB30E; */
+}
+
+
+.iframe{
+    margin-top:20px ;
+    width: 100%;
+    border-radius: 0 75px 75px 0;
+    box-shadow: 0 13px 35px -12px rgba(35,35,35,.30);
+
+}
+.titulo{
+    
+    grid-column: 1/-1;
+    margin-top: 50px;
+    height: 100px;
+    background-color: #E8E7E7;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+    font-size: 2.5em;
+    letter-spacing: 20px;
+    text-shadow: 3px 5px #558ABB;
+    /* background-color: #616161; */
+    box-shadow: 0 13px 35px -12px rgba(35,35,35,.30);
+}
+
+.direccion{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    grid-column: 1/7;
+    min-height: 200px;
+    background-color: #7F7F7F;
+    font-size: 60px;
+    font-style: oblique;
+    box-shadow: 0 13px 35px -12px rgba(35,35,35,.30);
+    color: #1E2549;
+    font-weight: 200;
+    border-radius: 70px 0 0 70px;
+
+}
+
+
 @media screen and (max-width:1044px) {
     
     .foto{
@@ -199,6 +276,10 @@ strong{
         grid-column: 2/12;
         border-radius: 0 0 75px 75px;
         height: 360px;
+    }
+
+    .slogan{
+        grid-column: 2/12;
     }
 
     .texto-forms{
@@ -224,16 +305,34 @@ strong{
     .slide-item{
         background-color: aqua;
         padding: 10px;
-        margin: 45px;}}
-@media screen and (max-width:482px){
+        margin: 45px;}
+        .titulito{
+            font-size: 0.5em;}
+    .direccion{
+        font-size: 40px;
+        line-height: 60px;
+        letter-spacing: 20px;
+
+    }
+    .slogan{
+        grid-column: 1/-1;
+    }
+
+    }
+
+        @media screen and (max-width:482px){
  
     .fotito{
         position: relative;
         width:170%;
         top: -20%;
-        right: 30%;
-        
-    }}
+        right: 30%;}
+    .titulito{
+            letter-spacing: 10px;}
+    .direccion{
+        font-size: 20px;
+        letter-spacing: 20px;
+        line-height: 60px;
 
-
-
+    }
+}
