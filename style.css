@@ -22,9 +22,11 @@ body{
     padding: 20px;
     justify-content: space-between;
     align-items: center;
-    background-color: #fff;
+    background-color: #ffffff;
     grid-column: 1/-1;
-    box-shadow: 0 13px 35px -12px rgba(35,35,35,.30);}
+    box-shadow: 0 13px 35px -12px rgba(35,35,35,.30);
+}
+
 .foto-header{
 max-width: 150px;
 background-color: #fff;
